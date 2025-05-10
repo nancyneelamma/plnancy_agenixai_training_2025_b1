@@ -1,0 +1,8 @@
+Install
+
+pip install fastapi uvicorn pandas joblib matplotlib seaborn
+
+Run on terminal
+uvicorn Api_CustomerSegmentation:app --reload
+
+uvicorn Api_CustomerSegmentation:app --reload --port 8888
